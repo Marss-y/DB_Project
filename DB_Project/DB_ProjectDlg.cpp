@@ -126,8 +126,8 @@ BOOL CDBProjectDlg::OnInitDialog()
 	 myr.Open(CRecordset::snapshot, _T("SELECT Id, IdType, URL, Note, DateAdd, IdLanguage, IdStatus FROM address"));
 
 	 //db.ExecuteSQL(_T("EXEC get_author_titles '998-72-3567'"));
-	// bool flag = cDb.OpenEx(_T("DSN = MySQL_Connection; UID = Karakondjul; PWD = Karakondjul"));Get
-//	cDb.OpenEx(_T("Driver={MySQL ODBC 5.1 Driver};Serverlocalhost;Database=apt;User=Karakondjul; Password=Karakondjul;Option=3;"), CDatabase::noOdbcDialog);
+	// bool flag = cDb.OpenEx(_T("DSN = MySQL_Connection; UID = FavLincsUser; PWD = FavLincsUserPass"));Get
+//	cDb.OpenEx(_T("Driver={MySQL ODBC 5.1 Driver};Serverlocalhost;Database=apt;User=FavLincsUser; Password=FavLincsUserPass;Option=3;"), CDatabase::noOdbcDialog);
 	 CString val;
 	 CString IdType;
 	 CString Id;
